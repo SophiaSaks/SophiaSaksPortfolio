@@ -6,7 +6,7 @@
 }
 
 .hero {
-    height: 100vh; 
+    height: 80vh; 
     width: 100%; 
     background-image: url(./tealbackground.jpg) ; 
     background-size: cover;
@@ -42,9 +42,6 @@ nav {
     align-items: center;
 }
 
-.logo:hover {
-    transform: scale(.9);
-}
 
 nav ul li {
     list-style-type: none;
@@ -108,16 +105,16 @@ nav ul li a:hover {
     color: #FCF7F7;
     align-items: center;
     position: absolute;
-    left: 50%;
-    bottom: 40%;
+    left: 40%;
+    bottom: 35%;
     font-family: 'Jost', sans-serif;
-    font-size: 18px;
+    font-size: 24px;
 }
 
 .titleintro {
     position: absolute;
-    left: 50%;
-    bottom: 50%;
+    left: 40%;
+    bottom: 70%;
     color: #FCF7F7;
     font-size: 40px; 
     font-family: 'Jost', sans-serif;
@@ -129,4 +126,21 @@ nav ul li a:hover {
     position: absolute;
     right: 65%; 
     bottom: 0%;
+}
+
+.mywork {
+    width: 100%; 
+    padding: 100px 0px;
+    background-color: #353A3E;
+    
+}
+
+h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 149.5%;
+    letter-spacing: 0.02em;
+    color: #ECECEC;
 }
