@@ -42,6 +42,10 @@ nav {
     align-items: center;
 }
 
+.logo:hover {
+    transform: scale(.9);
+}
+
 nav ul li {
     list-style-type: none;
     display: inline-block;
@@ -79,3 +83,50 @@ nav ul li a:hover {
     
 }
 
+.content {
+    position: absolute;
+    top: 50%; 
+    right: 35%; 
+    transform: translateY(-50%);
+    background: rgba(102, 101, 101, 0.4);
+    backdrop-filter: blur(10px);
+    border-radius: 30px;
+    position: absolute;
+    width: 1000px;
+    height: 300px;
+   
+
+}
+
+.content:hover {
+    background: #84ABAC;
+    transition: .4s;
+}
+
+
+.introduction {
+    color: #FCF7F7;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    bottom: 40%;
+    font-family: 'Jost', sans-serif;
+    font-size: 18px;
+}
+
+.titleintro {
+    position: absolute;
+    left: 50%;
+    bottom: 50%;
+    color: #FCF7F7;
+    font-size: 40px; 
+    font-family: 'Jost', sans-serif;
+    letter-spacing: 0.02em;
+
+}
+
+.profilepicture {
+    position: absolute;
+    right: 65%; 
+    bottom: 0%;
+}
