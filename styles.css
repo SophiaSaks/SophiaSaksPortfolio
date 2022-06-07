@@ -130,7 +130,7 @@ nav ul li a:hover {
 
 .mywork {
     width: 100%; 
-    padding: 100px 0px;
+    padding: 100px 12px;
     background-color: #353A3E;
     
 }
@@ -142,5 +142,25 @@ h1 {
     font-size: 40px;
     line-height: 149.5%;
     letter-spacing: 0.02em;
+    color: #84ABAC;
+}
+h4 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 149.5%;
+    letter-spacing: 0.02em;
     color: #ECECEC;
+}
+
+.aboutme {
+    width: 100%; 
+    padding: 100px 12px;
+    background-color: #353A3E;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1.5rem; 
+    align-items: center;
+    
 }
