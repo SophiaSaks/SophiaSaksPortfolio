@@ -158,6 +158,10 @@ h1 {
     line-height: 149.5%;
     letter-spacing: 0.02em;
     color: #84ABAC;
+    align-items: center;
+    justify-content: space-around;
+    letter-spacing: 2px;
+    text-align: center;
 }
 h4 {
     font-family: 'Poppins';
@@ -167,6 +171,7 @@ h4 {
     line-height: 149.5%;
     letter-spacing: 0.02em;
     color: #ECECEC;
+    text-align: left;
 }
 
 .aboutme {
@@ -247,6 +252,7 @@ li {
     opacity: 1;
   }
 
+ 
  
   
  
