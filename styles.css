@@ -164,3 +164,73 @@ h4 {
     align-items: center;
     
 }
+
+.uxwork {
+    background: rgba(102, 101, 101, 0.4);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    width: 200px;
+    height: 250px;
+
+}
+.frontendwork {
+    background: rgba(102, 101, 101, 0.4);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    width: 200px;
+    height: 250px;
+
+}
+
+p {
+    color: #84ABAC;
+    padding: 12px;
+
+}
+
+li {
+    padding: 2px 12px 2px 12px;
+    color: #ececec;
+}
+
+
+.container {
+    position: relative;
+    width: 50%;
+    max-width: 300px;
+    display: inline-block;
+    margin: 12px;
+  }
+  
+
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    
+  }
+  
+  
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(132, 171, 172, 0.85); 
+    color: #ececec;
+    width: 100%;
+    transition: .4s ease-in;
+    opacity:0;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 0px 0px 10px 10px;
+  }
+  
+  
+  .container:hover .overlay {
+    opacity: 1;
+  }
+
+
+  
