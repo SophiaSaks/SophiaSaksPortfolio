@@ -13,9 +13,6 @@ html {
   }
 
 
-
-
-
 h1 {
     font-family: 'Poppins';
     font-style: normal;
@@ -28,6 +25,27 @@ h1 {
     justify-content: space-around;
     letter-spacing: 0.125rem;
     text-align: center;
+}
+
+p {
+    color: #84ABAC;
+    padding: 0.5rem;
+    font-size: 1.125rem;
+
+}
+
+h2 {
+    color: #99FFF4;
+}
+
+li {
+    padding: 0.125rem 0.75rem 0.125rem 0.75rem;
+    color: #ececec;
+    font-size: 1rem;
+}
+
+img {
+    max-width: 100%;
 }
 
 /*hero section*/
@@ -45,10 +63,11 @@ h1 {
 
 
 .hero {
-    height: 80vh; 
-    width: 100%; 
-    background-image: url(./tealbackground.jpg) ; 
-    background-size: cover;
+    min-height: 80vh; 
+    min-width: 100%; 
+    background-image: url(./assets/tealbackground.jpg) ; 
+    background-size: 100%;
+    background-repeat: no-repeat;
     background-position: center;
 }
 
@@ -62,7 +81,7 @@ nav {
     background: rgba(212, 215, 215, 0.6);
     box-shadow: 0rem 0.125rem 0.625rem rgba(0, 0, 0, 0.1);
     width: 100%;
-    height: 7.5rem;
+    min-height: 7.5rem;
     left: 0rem;
     top: 0rem;
 
@@ -125,14 +144,13 @@ nav ul li a:hover {
 .content {
     position: absolute;
     top: 50%; 
-    right: 35%; 
     transform: translateY(-50%);
     background: rgba(102, 101, 101, 0.4);
     backdrop-filter: blur(10px);
     border-radius: 1.875rem;
     position: absolute;
-    width: 62.5rem;
-    height: 18.75rem;
+    min-width: 800px;
+    min-height: 18.75rem;
    
 
 }
@@ -148,7 +166,7 @@ nav ul li a:hover {
     align-items: center;
     position: absolute;
     left: 40%;
-    bottom: 25%;
+    bottom: 20%;
     font-family: 'Jost', sans-serif;
     font-size: 1.125rem;
     width: 50%;
@@ -157,7 +175,7 @@ nav ul li a:hover {
 .titleintro {
     position: absolute;
     left: 40%;
-    bottom: 70%;
+    bottom: 75%;
     color: #FCF7F7;
     font-size: 2.5rem; 
     font-family: 'Jost', sans-serif;
@@ -181,25 +199,12 @@ nav ul li a:hover {
     background-color: #353A3E;  
 }
 
-p {
-    color: #84ABAC;
-    padding: 0.5rem;
-    font-size: 1.125rem;
 
-}
-
-li {
-    padding: 0.125rem 0.75rem 0.125rem 0.75rem;
-    color: #ececec;
-    font-size: 1rem;
-}
-
-
-  .card {
+.card {
     height: 26.25rem;
     width: 22.5rem;
     padding: 0.75rem 1.25rem;
-    background-image: url(./boxbackground.jpg);
+    background-image: url(./assets/boxbackground.jpg);
     background-size: cover;
     border-radius: 0.625rem;
     margin: 0.938rem;
@@ -213,9 +218,6 @@ li {
     transition: .4s;
 }
 
-h2 {
-    color: #99FFF4;
-}
 
 .undertitle {
     font-family: 'Poppins';
@@ -249,7 +251,7 @@ h2 {
 
 
 .banner {
-    background: linear-gradient(90.44deg, #407B7C -14.08%, #6EE6BA 55.03%, #FFFFFF 116.06%);
+    background: linear-gradient(90.44deg, #407B7C -14.08%, #6EE6BA 55.03%, #FFFFFF 170.06%);
     width: fit-content;
     height: fit-content;
     padding: 2.5rem;
@@ -259,7 +261,6 @@ h2 {
     flex-direction: column;
     cursor: pointer;
     border-radius: 1.25rem;
-    transform: translateX(150px);
 }
 
 .icons {
@@ -301,7 +302,7 @@ h2 {
     
 }
 
-  .image {
+.image {
     display: block;
     width: 100%;
     height: auto;
@@ -310,7 +311,7 @@ h2 {
   }
   
   
-  .overlay {
+.overlay {
     position: absolute;
     bottom: 0;
     background: #131415;
@@ -325,11 +326,11 @@ h2 {
   }
   
   
-  .container:hover .overlay {
+.container:hover .overlay {
     opacity: 1;
   }
 
-  .container {
+.container {
     position: relative;
     width: 50%;
     max-width: 18.75rem;
@@ -337,7 +338,7 @@ h2 {
     margin: 0.75rem;
   }
 
-  .main {
+.main {
     max-width: 95%; 
     margin: 0 auto; 
     align-items:center;
